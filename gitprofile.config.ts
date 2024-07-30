@@ -40,6 +40,14 @@ const CONFIG = {
             'https://img.freepik.com/free-photo/business-parking-empty-carpark-abstract_1203-5195.jpg',
           link: 'https://car.daryandev.com',
         },
+        {
+          title: 'Notes App',
+          description:
+            'A simple notes app that is developed using Python Flask.',
+          imageUrl:
+            'https://img.freepik.com/free-photo/office-desk-with-pencils-notebook-cards-keyboard_23-2147647796.jpg',
+          link: 'https://notes.daryandev.com',
+        },
       ],
     },
   },
