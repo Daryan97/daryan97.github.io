@@ -20,12 +20,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['Daryan97/Daryan97'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -48,12 +48,20 @@ const CONFIG = {
             'https://img.freepik.com/free-photo/office-desk-with-pencils-notebook-cards-keyboard_23-2147647796.jpg',
           link: 'https://notes.daryandev.com',
         },
+        {
+          title: 'Diyari.AI',
+          description:
+            'Diyari.ai is your all-in-one email and document assistant, designed to simplify your daily tasks.',
+          imageUrl: 'https://diyariai.daryandev.com/static/img/diary-ai.png',
+          link: 'https://diyari.daryandev.com',
+        },
       ],
     },
   },
   seo: {
     title: 'Daryan Latif',
-    description: 'Portfolio of Daryan Latif - Software Engineer, Web Developer, and Application Developer.',
+    description:
+      'Portfolio of Daryan Latif - Software Engineer, Web Developer, and Application Developer.',
     imageURL: 'https://ik.imagekit.io/daryandev/My_Picture2_square.jpg',
   },
   social: {
@@ -96,6 +104,11 @@ const CONFIG = {
     'Spring Boot',
     'Python',
     'Oracle Database',
+    'Flask',
+    'Bootstrap',
+    'Tailwind CSS',
+    'Supabase',
+    'Vue.js',
   ],
   experiences: [
     {
@@ -109,7 +122,7 @@ const CONFIG = {
   certifications: [
     {
       name: 'Leadership Skills',
-      body: 'Leader\'s Dream',
+      body: "Leader's Dream",
       year: 'May 22, 2021',
       link: '',
     },
@@ -134,16 +147,16 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Kurdistan Technical Institute',
-      degree: 'Diploma in Computer Science',
-      from: '2019',
-      to: '2021',
-    },
-    {
       institution: 'Qaiwan International University',
       degree: 'Bachelor in Software Engineering',
       from: '2021',
       to: 'present',
+    },
+    {
+      institution: 'Kurdistan Technical Institute',
+      degree: 'Diploma in Computer Science',
+      from: '2019',
+      to: '2021',
     },
   ],
   publications: [
