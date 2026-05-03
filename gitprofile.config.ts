@@ -88,7 +88,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1GuusImEp7Q7_64_Zd8yTr8_6vdPG2AKj/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://rxresu.me/daryan97/resume', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
@@ -123,7 +123,7 @@ const CONFIG = {
     {
       name: 'Leadership Skills',
       body: "Leader's Dream",
-      year: 'May 22, 2021',
+      year: 'May 22, 2022',
       link: '',
     },
     {
